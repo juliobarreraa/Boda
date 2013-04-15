@@ -1,0 +1,254 @@
+body{
+	font-family: 'BenchNine', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	color:#7F7F7F;
+	background: url(../img/Logo_gris_claro.jpg);
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: #7F7F7F;
+}
+h2{
+	margin: 0;
+	padding: 0;
+	background: #FCDC2F;
+	color: white;
+}
+h3{
+	color: #FCDC2F;
+	height: 33px;
+    margin: 0;
+    overflow: hidden;
+	padding: 0;
+	font-size: 30px;
+	font-weight: normal;	
+}
+
+h3.h3_gris_greca{
+	background: url(../img/plecas_sub.jpg) no-repeat;
+	color: white;
+	margin: auto;
+	margin-bottom: 55px;
+	padding-top:5px;
+	height: 50px;
+	width: 910px;
+
+}
+
+span.gris_subtitulo{
+	font-size: 20px;
+}
+
+div.cont_full{
+	width: 100%;
+	background: white;
+	margin: auto;
+	margin-top: 135px;
+	overflow: hidden;
+
+}
+
+div.div_cont_revista_dos{
+	overflow:hidden; 
+	margin-top:50px; 
+	margin-bottom:50px;
+}
+
+div.div_cont_txt_revista_dos{
+	float:left; 
+	width:525px;
+	text-align: justify; 
+	margin-left:45px;
+}
+
+p.p_der{
+	text-align: right;
+}
+
+div.div_cont_img_revista_dos{
+	float:left;
+	width:340px;
+	margin-left:45px;
+}
+
+div.cont_1000{
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	padding-top: 10px;
+}
+
+#div_cont_menu{
+	width: 100%;
+	background:#FDDA38;
+	text-align: center;
+}
+
+#div_cont_menu ul{
+	padding: 5px;
+	overflow: hidden;
+	width: 885px;
+	margin: auto;
+	padding-left: 20px;
+}
+
+#div_cont_menu ul li{
+	float: left;
+	margin-right: 20px;
+	list-style: none;;
+}
+
+#div_cont_menu ul li a{
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+}
+#div_cont_menu ul li a:hover{
+	color: #5D5D5F;
+}
+
+div.novio, #fecha{
+	float:left;
+}
+
+#fecha{
+	margin-top: 80px;
+}
+
+div.novio img{
+	border: 1px solid;
+	padding: 8px;
+}
+
+ul.ul_form{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.ul_form li{
+	margin-bottom: 5px;
+}
+
+ul.ul_form li input{
+	border: 1px solid #7F7F7F;
+	padding: 3px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+ul.ul_form li textarea {
+	border: 1px solid #7F7F7F;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+button.btn_amarillo{
+	background: #FCDC2F;
+	padding: 3px 10px;
+	color: white;
+	border: 0;
+	font-size: 14px;
+
+}
+
+div.hotel, #cont_aerolineas, #cont_auto , #cont_autobus{
+	overflow: hidden;
+	width: 1000px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+div.hotel div, #cont_aerolineas div{
+	float: left;
+}
+
+div.hotel div.imagen{
+	margin-left: 50px;
+}
+
+div.hotel div.cont{
+	margin-left: 45px;
+	text-align: left;
+	width: 530px;
+}
+div.hotel div.cont ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+div.hotel div.cont ul li span{
+	color: #FCDC2F;
+}
+div.hotel div.cont h3{
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+#como_llegar h3{
+	margin-top: 50px;
+}
+
+#cont_aerolineas, #cont_auto , #cont_autobus{
+	width: 810px;
+}
+#cont_aerolineas div{
+	width: 270px;
+	text-align: center;
+}
+
+div.img_transporte, div.txt_transporte{
+	float: left;
+}
+div.img_transporte{
+	margin: auto 25px;
+}
+div.txt_transporte{
+	width: 380px;
+	text-align: left;
+	margin: auto 20px;
+}
+div.txt_transporte p{
+	margin:3px auto;
+	font-size: 20px;
+	line-height: 22px;
+}
+ul.ul_form_musica{
+	width: 340px;
+}
+ul.ul_form_musica li{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+ul.ul_form_musica li input{
+	width: 200px;
+	padding: 8px;
+}
+ul.ul_form_musica li span{
+	width: 120px;
+	display: inline-block;
+}
+
+#agenda div.agenda_col{
+	width: 330px;
+	float: left;
+	font-size: 20px;
+}
+#agenda div.agenda_col img.agenda{
+	margin-bottom: 110px;
+}
+#agenda div.agenda_item{
+	margin-bottom: 50px;
+}
+#agenda div.agenda_item h3{
+	margin: 0;
+}
+#agenda div.agenda_item p{
+	line-height: 18px;
+	margin: 5px;
+}
