@@ -37,14 +37,6 @@
     <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl ?>/js/jquery.scrollTo-1.4.2-min.js"></script>
     <!-- Load LocalScroll -->
 	<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl ?>/js/jquery.localscroll-1.2.7-min.js"></script>
-
-    
-  	<!-- prettyPhoto Initialization -->
-	<script type="text/javascript" charset="utf-8">
-	  $(document).ready(function(){
-	    $("a[rel^='prettyPhoto']").prettyPhoto();
-	  });
-	</script>
 	</head>
 
     <script type="text/javascript">
