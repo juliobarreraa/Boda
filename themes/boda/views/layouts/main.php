@@ -40,7 +40,10 @@
 	</head>
 
     <script type="text/javascript">
+    <!--
     var baseUrlTheme = '<?php echo Yii::app()->theme->baseUrl ?>';
+
+    //-->
     </script>
 
     <div id="fb-root"></div>
