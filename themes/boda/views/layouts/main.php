@@ -133,9 +133,10 @@
 <!-- confirm Section
  ================================================== -->
 
-<section id="where" class="single-page scrollblock">
-    <h2>¿Dónde?</h2>
+<section class="single-page scrollblock">
     <div class="bg-cog"></div>
+    <div id="where"><br /><br /></div>
+    <h2>¿Dónde?</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
@@ -190,14 +191,12 @@
 
 <section id="" class="single-page scrollblock">
     <div class="bg-cog"></div>
+    <div id="confirm"><br /><br /></div>
     <h2>Confirmar Asistencia</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div id="confirm">
-                        <br /><br />
-                    </div>
                     <div class="cont_1000">
                         <div class="div_cont_revista_dos">
                             <div class="div_cont_txt_revista_dos" style="margin-left:110px; width:340px;" >
@@ -228,14 +227,12 @@
 
 <section id="" class="single-page scrollblock">
     <div class="bg-cog"></div>
+    <div id="table"><br /><br /></div>
     <h2>Mesa de regalos</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div id="table">
-                        <br /><br />
-                    </div>
                     <div class="cont_1000 div_cont_revista_dos" style="margin-top:55px;">
                         <div class="div_cont_img_revista_dos" style="margin-left:100px;">
                             <img src="<?php echo Yii::app()->theme->baseUrl ?>/img/regalos.jpg" alt="Mesa de regalos">
@@ -256,14 +253,12 @@
 
 <section class="single-page scrollblock">
     <div class="bg-cog"></div>
+    <div id="clothing"><br /><br /></div>
     <h2>Vestimenta</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div id="clothing">
-                        <br /><br />
-                    </div>
                     <div class="cont_1000" style="margin-bottom:20px;">
                         <img src="<?php echo Yii::app()->theme->baseUrl ?>/img/vestimenta.jpg" alt="Vestimenta">
                     </div>
@@ -280,14 +275,12 @@
 
 <section id="" class="single-page scrollblock">
     <div class="bg-cog"></div>
+    <div id="hotels"><br /><br /></div>
     <h2>Hoteles</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div id="hotels">
-                        <br /><br />
-                    </div>
                     <div class="hotel">
                         <div class="imagen">
                             <img src="<?php echo Yii::app()->theme->baseUrl ?>/img/Hoteles.jpg" alt="Hotel">
@@ -364,14 +357,12 @@
 
 <section id="como_llegar" class="single-page scrollblock">
     <div class="bg-cog"></div>
+    <div id="arrival"><br /><br /></div>
     <h2>¿Cómo llegar?</h2>
     <div class="container">
         <div class="row">
             <div class="span12" style="padding-bottom: 50px;">
                 <article>
-                    <div id="arrival">
-                        <br /><br />
-                    </div>
                     <h3 class="h3_gris_greca" >Aéreo</h3>
                     <div id="cont_aerolineas">
                         <div>
@@ -438,14 +429,12 @@
 
 <section id="" class="single-page scrollblock">
     <div class="bg-cog"></div>
+    <div id="message"><br /><br /></div>
     <h2>Mensaje</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div id="message">
-                        <br /><br />
-                    </div>
                     <img src="<?php echo Yii::app()->theme->baseUrl ?>/img/composicion_us.jpg" alt="composición nosotros">
                     <div class="feed_facebook">
                         <div class="fb-comments" data-href="http://www.codebit.org" data-width="1000" data-num-posts="10"></div>
@@ -463,14 +452,12 @@
 
 <section id="" class="single-page scrollblock">
     <div class="bg-cog"></div>
+    <div id="music"><br /><br /></div>
     <h2>Música</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div id="music">
-                        <br /><br />
-                    </div>
                     <div class="cont_1000">
                         <div class="div_cont_revista_dos">
                             <div class="div_cont_txt_revista_dos" style="margin-left:115px; width: 340px;">
@@ -485,7 +472,7 @@
                                 </form>
                             </div>
                             <div>
-                                <img src="<?php echo Yii::app()->theme->baseUrl ?>/img/musica.jpg" alt="Música">
+                                <img src="<?php echo Yii::app()->theme->baseUrl ?>/img/Musica.jpg" alt="Música">
                             </div>
                         </div>
                     </div>
@@ -501,14 +488,12 @@
 
 <section id="agenda" class="single-page scrollblock">
     <div class="bg-cog"></div>
+    <div id="diary"><br /><br /></div>
     <h2>Agenda</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div id="diary">
-                        <br /><br />
-                    </div>
                     <div  class="cont_1000" style="margin-top:70px;">
                         <div class="agenda_col">
                             <img src="<?php echo Yii::app()->theme->baseUrl ?>/img/agenda.png" alt="Agenda" class="agenda">

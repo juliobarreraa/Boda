@@ -47,8 +47,6 @@ body 				{
 	padding-top: 40px;
 	text-align: center;
 }
-::-moz-selection 	{ background:#ff0; color:#333; }
-::selection 		{ background:#ff0; color:#333; }
 
 /*---------- FORMS ----------*/
 
@@ -253,11 +251,11 @@ em {
 #menu-main {
 	margin-top: 0em;
 }
-
+ul#menu-main { width: 978px;margin: 0 96px  !important; }
 ul#menu-main > li > a {
-	font-family: 'BenchNine-Bold', 'Open Sans', sans-serif;
+	font-family: 'BenchNine',sans-serif;
 	font-weight: normal;
-	font-size: 1.5em;
+	font-size: 24px;
 	text-transform: capitalize;
 	color: #fff;
 }
