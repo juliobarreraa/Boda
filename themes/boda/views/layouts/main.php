@@ -16,9 +16,7 @@
     <link href="<?php echo Yii::app()->theme->baseUrl ?>/css/style.css" rel="stylesheet">
 	<link rel='stylesheet' id='prettyphoto-css'  href="<?php echo Yii::app()->theme->baseUrl ?>/css/prettyPhoto.css" type='text/css' media='all'>
   	
-  	<!-- Google Fonts call. Font Used Open Sans & Open Sans Condensed -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=BenchNine:700,400,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href="<?php echo Yii::app()->theme->baseUrl ?>/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -48,6 +46,10 @@
 	  });
 	</script>
 	</head>
+
+    <script type="text/javascript">
+    var baseUrlTheme = '<?php echo Yii::app()->theme->baseUrl ?>';
+    </script>
 
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
@@ -97,16 +99,16 @@
 ================================================== -->
 <div class="scrollblock">
     <section>
+            <div class="bg-cog"></div>
             <div class="container">
                 <div class="row">
                     <div class="span12">
                         <article>
-                            <div class="bg-cog"></div>
 
                             <div class="cont_1000" style="padding-top: 70px;">
                                 <div style="overflow:hidden; width:670px; margin:auto;">
                                     <div class="novio" style="margin-right: 45px;">
-                                        <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/efrente.jpg" alt="Erika">
+                                        <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/efrente.jpg" alt="Erika" class="girlfriend">
                                         <h3>ERIKA</h3>
                                         <span class="gris_subtitulo">La Novia</span>
                                     </div>
@@ -114,7 +116,7 @@
                                         <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/fecha_centro.jpg" alt="16 nov 13">
                                     </div>
                                     <div class="novio" style="margin-left: 45px;">
-                                        <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/mfrente.jpg" alt="Mauro">
+                                        <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/mfrente.jpg" alt="Mauro" class="boyfriend">
                                         <h3>MAURO</h3>
                                         <span class="gris_subtitulo">El Novio</span>
                                     </div>
@@ -126,7 +128,6 @@
                                 </div>
                             </div>
                             <div class="bg-unique-cog"></div>
-                            <div class="bg-cog bottom"></div>
                         </article>
                     </div><!-- ./span12 -->
                 </div><!-- .row -->
@@ -138,11 +139,12 @@
  ================================================== -->
 
 <section id="where" class="single-page scrollblock">
+    <h2>¿Dónde?</h2>
+    <div class="bg-cog"></div>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div class="bg-cog"></div>
                     <div class="cont_1000">
                         <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/header_donde.jpg" alt="¿Dónde?">
                         <div>
@@ -180,7 +182,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bg-cog bottom"></div>
                 </article>
             </div><!-- ./span12 -->
         </div><!-- .row -->
@@ -192,51 +193,16 @@
  ================================================== -->
 
 
-<!-- table Section
- ================================================== -->
-
-<section class="single-page scrollblock">
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <article>
-                    <div class="bg-cog"></div>
-                    <div class="row">
-                        <div class="span4">
-                            <img src="assets/img/hacienda2.png">
-                            <br /><br />
-                            <img src="assets/img/hacienda3.png">
-                            <br /><br />
-                            <img src="assets/img/hacienda4.png">
-                        </div>
-                        <div class="span8">
-                            <p>La historia de San Pancho se cuenta en los muros de una ﬁnca cercana a la playa, con imágenes pintadas en acrílico, protagonizadas por coloridos personajes, por el paisaje de este destino considerado como la "capital cultural" del estado de Nayarit gracias a los diversas iniciativas para impulsar la cultura y educación que se realizan.</p>
-                            <p>Los primeros habitantes de esta zona, donde nace la Sierra Madre del Sur, fueron indígenas que pertenecían al grupo del Tatuan de Nayares.</p>
-                            <p>En 1524 don Francisco Cortés de Buenaventura nombra la zona como Azapan y los españoles bautizan al poblado con el nombre de San Francisco de Azapan, que sería parte de la Hacienda de Jaltemba, donde se producía coco de aceite.</p>
-                            <p>En 1936 se formó el ejido Sayulita, al que pertenece San Pancho y que, de cierta manera, marcó el espíritu de comunidad que caracteriza a este destino. Y es precisamente la acción social de los pobladores, su trabajo en conjunto en proyectos educativos, de cuidado del medio ambiente y promoción del arte, que San Pancho ha tenido un crecimiento y desarrollo positivos.</p>
-                            <p>La playa de San Pancho, de intensa luminosidad, recibe tanto a quienes quieren descansar y relajarse frente al mar, tomando el sol y leyendo, como a los de espíritu aventurero que desafían las olas del Pacíﬁco montados en sus tablas de surf.</p>
-                            <p>En sus calles, cuyos nombres transportan a países tan lejanos como Kenia, Pakistán, India y Egipto encontrará desde centros culturales, galerías, pequeños restaurantes, panaderías artesanales y cafeterías, hasta campos de futbol y golf.</p>
-                            <p>Mención aparte merece el club de polo La Patrona (www.polovallarta.com), emblema de San Pancho, un sitio donde los aﬁcionados a este deporte podrán formar parte, recibir lecciones privadas y participar en torneos nacionales e internacionales; y para quienes no lo practican La Patrona ofrece facilidades como restaurante, galería de arte, sala de conciertos y organización de eventos privados. Y si todo esto no fuera suﬁciente, contemple las impresionantes mansiones que se han levantado en los cerros que custodian San Pancho, e imagine que éste podría ser un hogar de ensueño.</p>
-                        </div>
-                    </div>
-                    <div class="bg-cog bottom"></div>
-                </article>
-            </div><!-- ./span12 -->
-        </div><!-- .row -->
-    </div><!-- /.container -->
-</section><!-- /#table -->
-
-
 <section id="" class="single-page scrollblock">
+    <div class="bg-cog"></div>
+    <h2>Confirmar Asistencia</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div class="bg-cog"></div>
                     <div id="confirm">
                         <br /><br />
                     </div>
-                    <h2>Confirmar Asistencia</h2>
                     <div class="cont_1000">
                         <div class="div_cont_revista_dos">
                             <div class="div_cont_txt_revista_dos" style="margin-left:110px; width:340px;" >
@@ -255,7 +221,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bg-cog bottom"></div>
                 </article>
             </div><!-- ./span12 -->
         </div><!-- .row -->
@@ -267,15 +232,15 @@
  ================================================== -->
 
 <section id="" class="single-page scrollblock">
+    <div class="bg-cog"></div>
+    <h2>Mesa de regalos</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div class="bg-cog"></div>
                     <div id="table">
                         <br /><br />
                     </div>
-                    <h2>Mesa de regalos</h2>
                     <div class="cont_1000 div_cont_revista_dos" style="margin-top:55px;">
                         <div class="div_cont_img_revista_dos" style="margin-left:100px;">
                             <img src="<?php echo Yii::app()->theme->baseUrl ?>/img/regalos.jpg" alt="Mesa de regalos">
@@ -285,7 +250,6 @@
                             <span class="gris_subtitulo">Nuestra mesa de regalos se encuentra en Liverpool con el número: <b>25020531</b></span>
                         </div>
                     </div>
-                    <div class="bg-cog bottom"></div>
                 </article>
             </div><!-- ./span12 -->
         </div><!-- .row -->
@@ -296,19 +260,18 @@
  ================================================== -->
 
 <section class="single-page scrollblock">
+    <div class="bg-cog"></div>
+    <h2>Vestimenta</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div class="bg-cog"></div>
                     <div id="clothing">
                         <br /><br />
                     </div>
-                    <h2>Vestimenta</h2>
                     <div class="cont_1000" style="margin-bottom:20px;">
                         <img src="<?php echo Yii::app()->theme->baseUrl ?>/img/vestimenta.jpg" alt="Vestimenta">
                     </div>
-                    <div class="bg-cog bottom"></div>
                 </article>
             </div><!-- ./span12 -->
         </div><!-- .row -->
@@ -321,15 +284,15 @@
  ================================================== -->
 
 <section id="" class="single-page scrollblock">
+    <div class="bg-cog"></div>
+    <h2>Hoteles</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div class="bg-cog"></div>
                     <div id="hotels">
                         <br /><br />
                     </div>
-                    <h2 style="margin-bottom:50px; ">Hoteles</h2>
                     <div class="hotel">
                         <div class="imagen">
                             <img src="<?php echo Yii::app()->theme->baseUrl ?>/img/Hoteles.jpg" alt="Hotel">
@@ -394,7 +357,6 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="bg-cog bottom"></div>
                 </article>
             </div><!-- ./span12 -->
         </div><!-- .row -->
@@ -405,16 +367,16 @@
 <!-- arrival Section
  ================================================== -->
 
-<section id="" class="single-page scrollblock">
+<section id="como_llegar" class="single-page scrollblock">
+    <div class="bg-cog"></div>
+    <h2>¿Cómo llegar?</h2>
     <div class="container">
         <div class="row">
-            <div class="span12">
+            <div class="span12" style="padding-bottom: 50px;">
                 <article>
-                    <div class="bg-cog"></div>
                     <div id="arrival">
                         <br /><br />
                     </div>
-                    <h2>¿Cómo llegar?</h2>
                     <h3 class="h3_gris_greca" >Aéreo</h3>
                     <div id="cont_aerolineas">
                         <div>
@@ -470,8 +432,6 @@
                             <p class="p_centrado">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit .</p>
                         </div>          
                     </div>
-
-                    <div class="bg-cog bottom"></div>
                 </article>
             </div><!-- ./span12 -->
         </div><!-- .row -->
@@ -482,21 +442,20 @@
  ================================================== -->
 
 <section id="" class="single-page scrollblock">
+    <div class="bg-cog"></div>
+    <h2>Mensaje</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div class="bg-cog"></div>
                     <div id="message">
                         <br /><br />
                     </div>
-                    <h2>Mensaje</h2>
                     <img src="<?php echo Yii::app()->theme->baseUrl ?>/img/composicion_us.jpg" alt="composición nosotros">
                     <div class="feed_facebook">
                         <div class="fb-comments" data-href="http://www.codebit.org" data-width="1000" data-num-posts="10"></div>
                     </div>
 
-                    <div class="bg-cog bottom"></div>
                 </article>
             </div><!-- ./span12 -->
         </div><!-- .row -->
@@ -508,15 +467,15 @@
  ================================================== -->
 
 <section id="" class="single-page scrollblock">
+    <div class="bg-cog"></div>
+    <h2>Música</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div class="bg-cog"></div>
                     <div id="music">
                         <br /><br />
                     </div>
-                    <h2>Música</h2>
                     <div class="cont_1000">
                         <div class="div_cont_revista_dos">
                             <div class="div_cont_txt_revista_dos" style="margin-left:115px; width: 340px;">
@@ -536,7 +495,6 @@
                         </div>
                     </div>
 
-                    <div class="bg-cog bottom"></div>
                 </article>
             </div><!-- ./span12 -->
         </div><!-- .row -->
@@ -547,15 +505,15 @@
  ================================================== -->
 
 <section id="agenda" class="single-page scrollblock">
+    <div class="bg-cog"></div>
+    <h2>Agenda</h2>
     <div class="container">
         <div class="row">
             <div class="span12">
                 <article>
-                    <div class="bg-cog"></div>
                     <div id="diary">
                         <br /><br />
                     </div>
-                    <h2>Agenda</h2>
                     <div  class="cont_1000" style="margin-top:70px;">
                         <div class="agenda_col">
                             <img src="<?php echo Yii::app()->theme->baseUrl ?>/img/agenda.png" alt="Agenda" class="agenda">
@@ -611,25 +569,17 @@
                             <img src="<?php echo Yii::app()->theme->baseUrl ?>/img/agenda.png" alt="Agenda" class="agenda">
                         </div>
                     </div>
-                    <div class="bg-cog bottom"></div>
                 </article>
             </div><!-- ./span12 -->
         </div><!-- .row -->
     </div><!-- /.container -->
 </section><!-- /#diary -->
-<div class="footer-wrapper">
-    <div class="container"> 
-        <footer>
-            <p><small>&copy; 2013 Otario. All rights reserved.</small></p>
-        </footer>
-    </div><!-- ./container -->
-</div>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="assets/js/bootstrap.js"></script>
     <script type="text/javascript" src="assets/js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="assets/js/site.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl ?>/js/site.js"></script>
 
     </body>
 </html>
