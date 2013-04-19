@@ -135,7 +135,7 @@
 
 <section class="single-page scrollblock">
     <div class="bg-cog"></div>
-    <div id="where"><br /><br /></div>
+    <div id="where" class="bg-cog-one"></div>
     <h2>¿Dónde?</h2>
     <div class="container">
         <div class="row">
@@ -191,7 +191,7 @@
 
 <section id="" class="single-page scrollblock">
     <div class="bg-cog"></div>
-    <div id="confirm"><br /><br /></div>
+    <div id="confirm" class="bg-cog-one"></div>
     <h2>Confirmar Asistencia</h2>
     <div class="container">
         <div class="row">
@@ -227,7 +227,7 @@
 
 <section id="" class="single-page scrollblock">
     <div class="bg-cog"></div>
-    <div id="table"><br /><br /></div>
+    <div id="table" class="bg-cog-one"></div>
     <h2>Mesa de regalos</h2>
     <div class="container">
         <div class="row">
@@ -253,7 +253,7 @@
 
 <section class="single-page scrollblock">
     <div class="bg-cog"></div>
-    <div id="clothing"><br /><br /></div>
+    <div id="clothing" class="bg-cog-one"></div>
     <h2>Vestimenta</h2>
     <div class="container">
         <div class="row">
@@ -275,7 +275,7 @@
 
 <section id="" class="single-page scrollblock">
     <div class="bg-cog"></div>
-    <div id="hotels"><br /><br /></div>
+    <div id="hotels" class="bg-cog-one"></div>
     <h2>Hoteles</h2>
     <div class="container">
         <div class="row">
@@ -357,7 +357,7 @@
 
 <section id="como_llegar" class="single-page scrollblock">
     <div class="bg-cog"></div>
-    <div id="arrival"><br /><br /></div>
+    <div id="arrival" class="bg-cog-one"></div>
     <h2>¿Cómo llegar?</h2>
     <div class="container">
         <div class="row">
@@ -429,7 +429,7 @@
 
 <section id="" class="single-page scrollblock">
     <div class="bg-cog"></div>
-    <div id="message"><br /><br /></div>
+    <div id="message" class="bg-cog-one"></div>
     <h2>Mensaje</h2>
     <div class="container">
         <div class="row">
@@ -452,7 +452,7 @@
 
 <section id="" class="single-page scrollblock">
     <div class="bg-cog"></div>
-    <div id="music"><br /><br /></div>
+    <div id="music" class="bg-cog-one"></div>
     <h2>Música</h2>
     <div class="container">
         <div class="row">
@@ -488,7 +488,7 @@
 
 <section id="agenda" class="single-page scrollblock">
     <div class="bg-cog"></div>
-    <div id="diary"><br /><br /></div>
+    <div id="diary" class="bg-cog-one"></div>
     <h2>Agenda</h2>
     <div class="container">
         <div class="row">
