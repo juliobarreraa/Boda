@@ -647,11 +647,11 @@ div.cform-response-output {
 }
 
 /* boyfriends */
-div.bg-cog, section article div.bg-unique-cog { min-height: 150px; width: 100%; background: url(../img/bg_sections.jpg) }
+div.bg-cog, section article div.bg-unique-cog { min-height: 140px; width: 100%; background: url(../img/bg_sections.png) top center }
 
 section article div.bg-cog.bottom { height: 300px; }
 
-section article div.bg-unique-cog { width: 53px; min-height: 50px; height: 50px; margin: 50px auto; text-align: center;  }
+section article div.bg-unique-cog { width: 47px; min-height: 46px; height: 46px; margin: 50px auto; text-align: center;  }
 
 section .container { background: #fff; }
 
